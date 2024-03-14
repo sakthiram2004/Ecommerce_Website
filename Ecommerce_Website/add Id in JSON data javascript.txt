@@ -1,0 +1,25 @@
+const jsonData = {
+   "entry1": {
+      "empName": "Janvi",
+      "age": 30
+   },
+   "entry2": {
+      "empName": "Rani",
+      "age": 25
+   },
+   "entry3": {
+      "empName": "Babita",
+      "age": 40
+   }
+   };
+ 
+   // Function to add unique ID to JSON object
+   function addUniqueId(jsonData) {
+      let index = 0;
+      for (let key in jsonData) {
+         jsonData[key].id = index++;
+      }
+      return jsonData;
+   }
+const resultObject = addUniqueId(jsonData);
+console.log(resultObject);
