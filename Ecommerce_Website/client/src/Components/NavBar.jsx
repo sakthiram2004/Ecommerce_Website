@@ -12,7 +12,7 @@ const NavBar = () => {
     <div className="navbar">
       <div className="navbar__leftside">
         <Link to="/">
-          <h1 className="navbar__leftside__logo">WARRIERS</h1>
+          <h1 className="navbar__leftside__logo">ECOMMERCE</h1>
         </Link>
       </div>
       <div className="navbar__rightside">
@@ -29,13 +29,13 @@ const NavBar = () => {
         </div>
         <div className="navbar__rightside__navlinks">
           <Link to="/savedlist">
-            <IoHeartOutline className="navbar__rightside__navlinks__icons " />
+            <IoHeartOutline className="navbar__rightside__navlinks__icons shavedlist " />
           </Link>
           <Link to="/cart">
-            <TiShoppingCart className="navbar__rightside__navlinks__icons " />
+            <TiShoppingCart className="navbar__rightside__navlinks__icons cart " />
           </Link>
           <Link to="/login">
-            <MdAccountCircle className="navbar__rightside__navlinks__icons " />
+            <MdAccountCircle className="navbar__rightside__navlinks__icons account " />
           </Link>
         </div>
       </div>

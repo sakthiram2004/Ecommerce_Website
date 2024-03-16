@@ -20,9 +20,6 @@
    border-bottom:2px solid black ;
    padding: 0.5rem;
 }
-.navbar__leftside a{
-    
-}
 .navbar__rightside__searchbar input::placeholder{
     font: 1rem bold;
 }
@@ -40,6 +37,11 @@
     top: 0;
     right: 0;
     cursor: pointer;   
+}
+.navbar__rightside__navlinks a:hover .navbar__rightside__navlinks__icons{
+    font-size:2.5rem ;
+    box-shadow: 0 0 1px rgb(173, 165, 165);
+    
 }
 .navbar__rightside__navlinks__icons,
 .navbar__rightside__searchbar__searchicon
